@@ -12,3 +12,5 @@ def password_gen(length):
     print(''.join(random.choices(possible_chars, k=length)))
 
 
+# Test code
+password_gen(12)
