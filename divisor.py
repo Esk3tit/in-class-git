@@ -11,3 +11,12 @@ def divisor(n):
         if n % i == 0:
 
             # If there is no remainder, then i is divisor
+            # Add to divisor list
+            divisor_list.append(i)
+
+
+def print_divisor(lst):
+
+    # Print divisor list
+    for div in lst:
+        print(f"{div} ")
